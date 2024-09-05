@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred;
+    min-height: 100vh;
+
+}
+
+form {
+    padding: 50px 55px;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    background-color: rgb(132, 73, 93);
+    
+}
+
+.input-estudiante{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+h1 {
+    color: black;
+    font-size: 35px;
+}
+label{
+    color: #0a0a0a;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: #edfff0;
+    border: 2px;
+    color: #283629;
+
+}
+.btn{
+    font-size: 16px;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: palevioletred;
+
+}
